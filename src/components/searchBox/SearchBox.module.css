@@ -1,0 +1,24 @@
+.searchInput {
+    width: 320px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    transition: border 250ms ease-in-out;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.searchInput:focus {
+    border: 1px solid coral;
+}
+
+.searchInput::placeholder {
+    transition: color 250ms ease-in-out;
+}
+
+.searchInput:focus::placeholder {
+    color: coral;
+}

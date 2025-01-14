@@ -1,0 +1,33 @@
+.contactContainer {
+    border: 2px solid coral;
+    border-radius: 10px;
+    padding: 10px 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contactText {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px;
+}
+
+.contactBtn {
+    background-color: coral;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 24px;
+    max-width: 200px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: opacity 250ms ease-in-out, box-shadow 250ms ease-in-out;
+}
+
+.contactBtn:focus,
+.contactBtn:hover {
+    opacity: 85%;
+    box-shadow: 5px 5px 4px 1px rgba(0, 0, 0, 0.3);
+}

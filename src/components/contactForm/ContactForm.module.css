@@ -1,0 +1,56 @@
+.contactForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 0 auto 20px;
+}
+
+.contactFieldContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.contactLabelField {
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    transition: border 250ms ease-in-out;
+}
+
+.contactLabelField:focus {
+    border: 1px solid coral;
+}
+
+.contactLabelField::placeholder {
+    transition: color 250ms ease-in-out;
+}
+
+.contactLabelField:focus::placeholder {
+    color: coral;
+}
+
+.contactError {
+    color: red
+}
+
+.contactBtn {
+    background-color: coral;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    max-width: 200px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: opacity 250ms ease-in-out, box-shadow 250ms ease-in-out;
+}
+
+.contactBtn:focus,
+.contactBtn:hover {
+    opacity: 85%;
+    box-shadow: 5px 5px 4px 1px rgba(0, 0, 0, 0.3);
+}
