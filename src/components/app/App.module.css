@@ -9,3 +9,9 @@
     max-width: 1280px;
     margin: 0 auto;
 }
+
+.contactsWrapper {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
